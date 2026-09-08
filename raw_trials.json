@@ -1,0 +1,2023 @@
+[
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05028140",
+        "orgStudyIdInfo": {
+          "id": "EMS1020 - PIEMONTE"
+        },
+        "organization": {
+          "fullName": "EMS",
+          "class": "INDUSTRY"
+        },
+        "briefTitle": "Efficacy and Safety of Piemonte Association in the Treatment of Type II Diabetes Mellitus",
+        "officialTitle": "National, Multicenter, Randomized, Double-blind, Triple-dummy, Phase III Clinical Trial to Evaluate the Efficacy and Safety of Piemonte Association in the Treatment of Type II Diabetes Mellitus",
+        "acronym": "PIEMONTE"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2025-12",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2024-10-08",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-07",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2027-09",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2021-08-25",
+        "studyFirstSubmitQcDate": "2021-08-25",
+        "studyFirstPostDateStruct": {
+          "date": "2021-08-31",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2025-12-01",
+        "lastUpdatePostDateStruct": {
+          "date": "2025-12-08",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "EMS",
+          "class": "INDUSTRY"
+        }
+      },
+      "oversightModule": {
+        "oversightHasDmc": true,
+        "isFdaRegulatedDrug": false,
+        "isFdaRegulatedDevice": false
+      },
+      "descriptionModule": {
+        "briefSummary": "The purpose of this study is to evaluate the efficacy and safety of Piemonte association in the treatment of type 2 diabetes mellitus"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Type II Diabetes"
+        ],
+        "keywords": [
+          "Type II diabetes mellitus"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE3"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "DOUBLE",
+            "whoMasked": [
+              "PARTICIPANT",
+              "INVESTIGATOR"
+            ]
+          }
+        },
+        "enrollmentInfo": {
+          "count": 480,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "Piemonte association",
+            "type": "EXPERIMENTAL",
+            "description": "The study is triple-dummy, thus the patient must take 3 tablets once a day, as follows:\n\n1 tablet Piemonte, oral;\n\n1 placebo tablet of empagliflozin, oral;\n\n1 placebo tablet of piglitazone, oral.",
+            "interventionNames": [
+              "Drug: PIEMONTE",
+              "Other: PLACEBO EMPAGLIFLOZIN",
+              "Other: PLACEBO PIOGLITAZONE"
+            ]
+          },
+          {
+            "label": "Empagliflozin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "The study is triple-dummy, thus the patient must take 3 tablets once a day, as follows:\n\n1 placebo tablet of Piemonte, oral;\n\n1 tablet of empagliflozin, oral;\n\n1 placebo tablet of piglitazone, oral.",
+            "interventionNames": [
+              "Other: PIEMONTE PLACEBO",
+              "Drug: EMPAGLIFLOZIN",
+              "Other: PLACEBO PIOGLITAZONE"
+            ]
+          },
+          {
+            "label": "Pioglitazone",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "The study is triple-dummy, thus the patient must take 3 tablets once a day, as follows:\n\n1 placebo tablet of Piemonte, oral;\n\n1 placebo tablet of empagliflozin, oral;\n\n1 tablet of piglitazone, oral.",
+            "interventionNames": [
+              "Other: PIEMONTE PLACEBO",
+              "Other: PLACEBO EMPAGLIFLOZIN",
+              "Drug: PIOGLITAZONE"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "PIEMONTE",
+            "description": "Piemonte association 1 coated tablet once a day",
+            "armGroupLabels": [
+              "Piemonte association"
+            ]
+          },
+          {
+            "type": "OTHER",
+            "name": "PIEMONTE PLACEBO",
+            "description": "Placebo of Piemonte association 1 coated tablet once a day",
+            "armGroupLabels": [
+              "Empagliflozin",
+              "Pioglitazone"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "EMPAGLIFLOZIN",
+            "description": "Empagliflozin 25 mg 1 coated tablet once a day",
+            "armGroupLabels": [
+              "Empagliflozin"
+            ]
+          },
+          {
+            "type": "OTHER",
+            "name": "PLACEBO EMPAGLIFLOZIN",
+            "description": "Placebo of empagliflozin 25 mg 1 coated tablet once a day",
+            "armGroupLabels": [
+              "Piemonte association",
+              "Pioglitazone"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "PIOGLITAZONE",
+            "description": "Pioglitazone 30 mg 1 tablet once a day",
+            "armGroupLabels": [
+              "Pioglitazone"
+            ]
+          },
+          {
+            "type": "OTHER",
+            "name": "PLACEBO PIOGLITAZONE",
+            "description": "Placebo of pioglitazone 30 mg 1 tablet once a day",
+            "armGroupLabels": [
+              "Empagliflozin",
+              "Piemonte association"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Glycated hemoglobin",
+            "description": "Change from baseline in glycated hemoglobin",
+            "timeFrame": "120 days"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Adverse events",
+            "description": "Incidence and severity of adverse events recorded during the study",
+            "timeFrame": "150 days"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Ability to confirm voluntary participation and agree to all trial purposes by signing and dating the consent form;\n* Diagnosis of type II diabetes mellitus, and who did not reach the therapeutic goal of HbA1c with previous dietary, physical exercise, and previous therapies at stable doses within 3 months.\n\nExclusion Criteria:\n\n* Any clinical and laboratory findings that, in the judgment of the investigator, may interfere with the safety of participants;\n* History of alcohol abuse or illicit drug use;\n* Participation in a clinical trial in the year prior to this study;\n* Pregnancy or risk of pregnacy and lactating participants;\n* Known hypersensitivity to any of the formula compounds;\n* Type 1 diabetes.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "85 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Arthur M Kummer, MD, PhD",
+            "role": "CONTACT",
+            "phone": "+551938879851",
+            "email": "pesquisa.clinica@ncfarma.com.br"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "EMS",
+            "status": "RECRUITING",
+            "city": "Hortol\u00e2ndia",
+            "state": "S\u00e3o Paulo",
+            "country": "Brazil",
+            "geoPoint": {
+              "lat": -22.85833,
+              "lon": -47.22
+            }
+          }
+        ]
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2026-08-31"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D003924",
+            "term": "Diabetes Mellitus, Type 2"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D003920",
+            "term": "Diabetes Mellitus"
+          },
+          {
+            "id": "D044882",
+            "term": "Glucose Metabolism Disorders"
+          },
+          {
+            "id": "D008659",
+            "term": "Metabolic Diseases"
+          },
+          {
+            "id": "D009750",
+            "term": "Nutritional and Metabolic Diseases"
+          },
+          {
+            "id": "D004700",
+            "term": "Endocrine System Diseases"
+          }
+        ]
+      },
+      "interventionBrowseModule": {
+        "meshes": [
+          {
+            "id": "C570240",
+            "term": "empagliflozin"
+          },
+          {
+            "id": "D000077205",
+            "term": "Pioglitazone"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D045162",
+            "term": "Thiazolidinediones"
+          },
+          {
+            "id": "D013844",
+            "term": "Thiazoles"
+          },
+          {
+            "id": "D013457",
+            "term": "Sulfur Compounds"
+          },
+          {
+            "id": "D009930",
+            "term": "Organic Chemicals"
+          },
+          {
+            "id": "D001393",
+            "term": "Azoles"
+          },
+          {
+            "id": "D006573",
+            "term": "Heterocyclic Compounds, 1-Ring"
+          },
+          {
+            "id": "D006571",
+            "term": "Heterocyclic Compounds"
+          }
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07465224",
+        "orgStudyIdInfo": {
+          "id": "ALN-4324-002"
+        },
+        "organization": {
+          "fullName": "Alnylam Pharmaceuticals",
+          "class": "INDUSTRY"
+        },
+        "briefTitle": "A Study to Evaluate ALN-4324 on Insulin Sensitivity in Adults With Type 2 Diabetes Mellitus",
+        "officialTitle": "A Randomized, Double-blind, Placebo-controlled Study Investigating the Effect of ALN-4324 on Insulin Sensitivity in Patients With Type 2 Diabetes Mellitus"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2026-08",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2026-01-15",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2027-05-28",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2027-05-28",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2026-03-06",
+        "studyFirstSubmitQcDate": "2026-03-06",
+        "studyFirstPostDateStruct": {
+          "date": "2026-03-11",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-08-11",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-08-12",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "Alnylam Pharmaceuticals",
+          "class": "INDUSTRY"
+        }
+      },
+      "oversightModule": {
+        "oversightHasDmc": false,
+        "isFdaRegulatedDrug": true,
+        "isFdaRegulatedDevice": false
+      },
+      "descriptionModule": {
+        "briefSummary": "The purpose of this study is to evaluate the effect of a single dose of ALN-4324 on whole-body insulin sensitivity in participants with T2DM"
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Type 2 Diabetes Mellitus (T2DM)"
+        ],
+        "keywords": [
+          "siRNA",
+          "RNAi"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "TRIPLE",
+            "whoMasked": [
+              "PARTICIPANT",
+              "CARE_PROVIDER",
+              "INVESTIGATOR"
+            ]
+          }
+        },
+        "enrollmentInfo": {
+          "count": 24,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "ALN-4324",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will be administered a single dose of ALN-4324.",
+            "interventionNames": [
+              "Drug: ALN-4324"
+            ]
+          },
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants will be administered a single dose of placebo.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "ALN-4324",
+            "description": "ALN-4324 will be administered subcutaneously (SC).",
+            "armGroupLabels": [
+              "ALN-4324"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo will be administered SC.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Change from Baseline in M-value",
+            "description": "M-value is measured as the glucose infusion rate at steady state",
+            "timeFrame": "Baseline up to Month 3"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Frequency of Adverse Events (AEs)",
+            "timeFrame": "Up to Month 9"
+          },
+          {
+            "measure": "Change from Baseline in M/I",
+            "description": "M/I is measured as the ratio of M-value to insulin concentration \\[I\\] at steady state",
+            "timeFrame": "Baseline up to Month 6"
+          },
+          {
+            "measure": "Change from Baseline in M-value",
+            "description": "M-value is measured as the glucose infusion rate at steady state",
+            "timeFrame": "Baseline up to Month 6"
+          },
+          {
+            "measure": "Change from Baseline in Endogenous Glucose Production (EGP)",
+            "description": "Both in the basal state and during steady state during the hyperinsulinemic euglycemic clamp (HEC) procedure",
+            "timeFrame": "Baseline up to Month 6"
+          },
+          {
+            "measure": "Change from Baseline in Hemoglobin A1c (HbA1c)",
+            "timeFrame": "Baseline up to Month 6"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Is an adult patient with a confirmed diagnosis of T2DM\n* Has a body mass index (BMI) of \u226523 kg/m\\^2 to \u226439.9 kg/m\\^2\n* Has a hemoglobin A1c (HbA1c) \u22656.5% to \\<10.5%\n* Is on a stable dose of metformin, sodium-glucose cotransporter 2 inhibitor (SGLT2i), or dipeptidyl peptidase-4 inhibitor (DPP4i)\n\nExclusion Criteria:\n\n* Has any clinically significant concomitant disease, medical condition, or abnormal laboratory finding that could compromise participant safety or confound interpretation of study results\n* Receiving therapies known to interfere with glucose or insulin metabolism other than current treatment for T2DM or birth control methods\n\nNote: other protocol defined inclusion/exclusion criteria apply",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "65 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Alnylam Clinical Trial Information Line",
+            "role": "CONTACT",
+            "phone": "1-877-ALNYLAM",
+            "email": "clinicaltrials@alnylam.com"
+          },
+          {
+            "name": "Alnylam Clinical Trial Information Line",
+            "role": "CONTACT",
+            "phone": "1-877-256-9526",
+            "email": "clinicaltrials@alnylam.com"
+          }
+        ],
+        "overallOfficials": [
+          {
+            "name": "Medical Director",
+            "affiliation": "Alnylam Pharmaceuticals",
+            "role": "STUDY_DIRECTOR"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "Clinical Trial Site",
+            "status": "RECRUITING",
+            "city": "Chula Vista",
+            "state": "California",
+            "zip": "91911",
+            "country": "United States",
+            "geoPoint": {
+              "lat": 32.64005,
+              "lon": -117.0842
+            }
+          }
+        ]
+      },
+      "ipdSharingStatementModule": {
+        "ipdSharing": "YES",
+        "description": "Access to Anonymized individual participant data that support these results is made available 12 months after study completion and not less than 12 months after the product and indication have been approved in the US and/or the EU.\n\nAccess to data may be declined where there is likelihood a patient could be identified or other feasibility issue, where there is a potential conflict of interest, planned business activities or an actual or potential competitive risk. Data will be provided contingent upon the approval of a research proposal and the execution of a data sharing agreement. Timeframes for data access may vary and can take up to 6 months or more.\n\nRequests for access to data can be submitted via the website www.vivli.org. Questions can also be directed to datasharing@alnylam.com."
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2026-08-31"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D003924",
+            "term": "Diabetes Mellitus, Type 2"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D003920",
+            "term": "Diabetes Mellitus"
+          },
+          {
+            "id": "D044882",
+            "term": "Glucose Metabolism Disorders"
+          },
+          {
+            "id": "D008659",
+            "term": "Metabolic Diseases"
+          },
+          {
+            "id": "D009750",
+            "term": "Nutritional and Metabolic Diseases"
+          },
+          {
+            "id": "D004700",
+            "term": "Endocrine System Diseases"
+          }
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06428968",
+        "orgStudyIdInfo": {
+          "id": "T2DM2024"
+        },
+        "organization": {
+          "fullName": "Central South University",
+          "class": "OTHER"
+        },
+        "briefTitle": "Investigating the Insulin Resistance in Individuals With Type 2 Diabetes",
+        "officialTitle": "Investigating the Central and Peripheral Insulin Resistance in Individuals With Type 2 Diabetes"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2024-09",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2024-09-06",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2024-12-31",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2025-06-30",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2024-05-07",
+        "studyFirstSubmitQcDate": "2024-05-20",
+        "studyFirstPostDateStruct": {
+          "date": "2024-05-24",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2024-09-09",
+        "lastUpdatePostDateStruct": {
+          "date": "2024-09-19",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "PRINCIPAL_INVESTIGATOR",
+          "investigatorFullName": "Renrong Wu",
+          "investigatorTitle": "Professor",
+          "investigatorAffiliation": "Central South University"
+        },
+        "leadSponsor": {
+          "name": "Central South University",
+          "class": "OTHER"
+        }
+      },
+      "oversightModule": {
+        "oversightHasDmc": false,
+        "isFdaRegulatedDrug": false,
+        "isFdaRegulatedDevice": false
+      },
+      "descriptionModule": {
+        "briefSummary": "Numerous studies have provided evidence of a correlation between Type 2 Diabetes Mellitus (T2DM) and cognitive dysfunction, specifically in the realms of complex attention, information processing, and executive function. These impairments have been observed in middle-aged and elderly individuals with T2DM, with longer diabetes duration, suboptimal glycemic control, and the presence of diabetic complications being contributing factors. Recent research in young adults and adolescents diagnosed with T2DM has revealed cognitive and brain structural alterations in this growing demographic, suggesting that early disease mechanisms, rather than solely vascular and age-related neurodegeneration, contribute to pathogenesis. However, there remains uncertainty regarding the interplay between central and peripheral insulin resistance and its impact on cognitive dysfunction in individuals with T2DM. This study aims to investigate central insulin resistance in T2DM, elucidating its association with peripheral insulin resistance and the effects on cognitive impairments.",
+        "detailedDescription": "Participants screened through inclusion and exclusion criteria will accept cross-sectional evaluation. The information of demographic data, medical history, previous and current medication regimen, details of complications, and family history regarding metabolic diseases will be collected. The assessments includes physical examination, anthropometry, blood test(blood routine, liver function, renal function, blood lipids, fasting blood glucose, serum insulin\uff0cthyroid function and glycosylated hemoglobin A 1c), MRI scan( High-resolution T1-weighted Anatomical Images, Diffusion Tensor Imaging, Resting-state functional MRI and Arterial Spin Labeling) and psychiatry scales(Hamilton Depression Scale, Young Mania Rating Scale and Self-reporting Inventory-90); cognitive function will be assessed by the Measurement and Treatment Research to Improve Cognition in Schizophrenia(MATRICS) Consensus Cognitive Battery; biological samples also will be collected and stored to explore related mechanisms."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Type 2 Diabetes"
+        ],
+        "keywords": [
+          "Insulin resistance",
+          "Cognitive impairments"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "NON_RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "SCREENING",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 30,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "Individual with type 2 diabetes",
+            "type": "EXPERIMENTAL",
+            "description": "Individual with type 2 diabetes",
+            "interventionNames": [
+              "Drug: 160 units nasal insulin spray"
+            ]
+          },
+          {
+            "label": "Healthy volunteers",
+            "type": "EXPERIMENTAL",
+            "interventionNames": [
+              "Drug: 160 units nasal insulin spray"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "160 units nasal insulin spray",
+            "description": "Initially, a series of MRI scans, including high-resolution T1-weighted anatomical images, diffusion tensor imaging, resting-state functional MRI, and arterial spin labeling, will be conducted. Subsequently, 160 units of nasal insulin spray will be administered, followed by a second round of MRI scans after a 30-minute interval, encompassing high-resolution T1-weighted anatomical images, resting-state functional MRI, and arterial spin labeling.",
+            "armGroupLabels": [
+              "Healthy volunteers",
+              "Individual with type 2 diabetes"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "The difference of changes of brain cerebral blood flow by arterial spin labeling between type 2 diabetes and healthy volunteers.",
+            "description": "Whole brain cerebral blood flow (CBF) will be recorded by arterial spin labeling (ASL). the changes in CBF (c-CBF) before and after the application of 160 units nasal insulin spray of interventional participants will be calculated. The c-CBF is an index of central insulin response.",
+            "timeFrame": "Baseline"
+          },
+          {
+            "measure": "The difference of the level of insulin signaling in Extracellular Vesicles of neuronal origin isolated from blood between type 2 diabetes and healthy volunteers.",
+            "description": "Phosphorylated insulin receptor substrate 1 and its downstream mediators represent the state of neuronal insulin resistance, whose improvement means better insulin signaling. For individuals with type 2 diabetes mellitus and healthy volunteers, blood samples will be collected and stored at -80\u2103 at baseline. The NEVs isolation and biomarker measurements will be processed uniformly, and the difference of the level of insulin signaling between two groups will be used for exploring underlying mechanism of disease.",
+            "timeFrame": "Baseline"
+          },
+          {
+            "measure": "The difference of the score of the Measurement and Treatment Research to Improve Cognition in Schizophrenia Consensus Cognitive Battery between type 2 diabetes and healthy volunteers.",
+            "description": "The cognitive function of interventional participants will be assessed using the Measurement and Treatment Research to Improve Cognition in Schizophrenia Consensus Cognitive Battery. Evaluator convert raw scores to scale scores, then to normalized T scores. T scores of seven domains and composite score are further calculated. The difference of T scores between two groups will be used for evaluating cognitive function. (higher score means better function).",
+            "timeFrame": "Baseline"
+          },
+          {
+            "measure": "The difference of c-fMRI between type 2 diabetes and healthy volunteers.",
+            "description": "The resting-state functional MRI(fMRI) will be conducted at fasting state and after the application of 160 units nasal insulin spray. For every participants, the changes in fMRI (c-fMRI) under the application of nasal insulin spray will be analysed. The c-fMRI between type 2 diabetes and healthy volunteers may reflect the underlying mechanism of disease.",
+            "timeFrame": "Baseline"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "The difference of Diffusion Tensor Imaging scanned by MRI between type 2 diabetes and healthy volunteers",
+            "description": "Diffusion Tensor Imaging (DTI) will be performed using diffusion-weighted echo planar imaging sequences. The analysis of DTI will be conducted to investigate the difference of brain structure and morphology between type 2 diabetes and healthy volunteers.",
+            "timeFrame": "Baseline"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Meeting the diagnostic criteria for Type 2 diabetes: typical symptoms of diabetes plus random blood glucose level of \u226511.1 mmol/l, or fasting blood glucose level of \u22657.0 mmol/l, or 2-hour post-OGTT (Oral Glucose Tolerance Test) blood glucose level of \u226511.1 mmol/l, or HbA1c level of \u22656.5%; for those without typical symptoms of diabetes, re-examination on a different day is required for confirmation.\n\nExclusion Criteria:\n\n* Having history of substance dependence or abuse or whose symptoms are caused by diagnosable mental disorders;\n* Having history of traumatic brain injury, seizures or other known neurological or organic diseases of the central nervous system;\n* Having current suicidal or homicidal thoughts or any safety concern by research staff that cannot be manage in an inpatient setting;\n* Taking drugs that could affect cognitive function.\n* The routine blood tests showing significant abnormal renal, liver function or other somatic disease.\n* Pregnant or lactating women.",
+        "healthyVolunteers": true,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Jing Huang, MD",
+            "role": "CONTACT",
+            "phone": "15874290980",
+            "email": "jinghuangserena001@csu.edu.cn"
+          },
+          {
+            "name": "Jingmei Xiao, MD",
+            "role": "CONTACT",
+            "phone": "17673129702",
+            "email": "xiaojingmei@csu.edu.cn"
+          }
+        ],
+        "overallOfficials": [
+          {
+            "name": "Renrong Wu, PhD",
+            "affiliation": "Department of Psychiatry, The Second Xiangya Hospital of Central South University",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "Department of Psychiatry, National Clinical Research Center for Mental Disorders, and National Center for Mental Disorders, The Second Xiangya Hospital of Central South University",
+            "status": "RECRUITING",
+            "city": "Changsha",
+            "state": "Hunan",
+            "zip": "410011",
+            "country": "China",
+            "contacts": [
+              {
+                "name": "Renrong Wu, PhD, M.D",
+                "role": "CONTACT",
+                "phone": "15874179855",
+                "email": "wurenrong2013@163.com"
+              },
+              {
+                "name": "Jing Huang, MD",
+                "role": "CONTACT",
+                "email": "jinghuangserena001@csu.edu.cn"
+              }
+            ],
+            "geoPoint": {
+              "lat": 28.19874,
+              "lon": 112.97087
+            }
+          }
+        ]
+      },
+      "ipdSharingStatementModule": {
+        "ipdSharing": "NO"
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2026-08-31"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D003924",
+            "term": "Diabetes Mellitus, Type 2"
+          },
+          {
+            "id": "D007333",
+            "term": "Insulin Resistance"
+          },
+          {
+            "id": "D060825",
+            "term": "Cognitive Dysfunction"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D003920",
+            "term": "Diabetes Mellitus"
+          },
+          {
+            "id": "D044882",
+            "term": "Glucose Metabolism Disorders"
+          },
+          {
+            "id": "D008659",
+            "term": "Metabolic Diseases"
+          },
+          {
+            "id": "D009750",
+            "term": "Nutritional and Metabolic Diseases"
+          },
+          {
+            "id": "D004700",
+            "term": "Endocrine System Diseases"
+          },
+          {
+            "id": "D006946",
+            "term": "Hyperinsulinism"
+          },
+          {
+            "id": "D003072",
+            "term": "Cognition Disorders"
+          },
+          {
+            "id": "D019965",
+            "term": "Neurocognitive Disorders"
+          },
+          {
+            "id": "D001523",
+            "term": "Mental Disorders"
+          }
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06863532",
+        "orgStudyIdInfo": {
+          "id": "2024-0986"
+        },
+        "organization": {
+          "fullName": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+          "class": "OTHER"
+        },
+        "briefTitle": "Efficacy and Safety Comparison of Cofrogliptin Add-on Versus Metformin Dose-escalation in Type 2 Diabetes Patients Inadequately Controlled With SGLT-2 Inhibitors Plus Low-Dose Metformin:A Multicenter, Open-Label Trial",
+        "officialTitle": "Efficacy and Safety Comparison of Cofrogliptin Add-on Versus Metformin Dose-escalation in Type 2 Diabetes Patients Inadequately Controlled With SGLT-2 Inhibitors Plus Low-Dose Metformin:A Multicenter, Open-Label Trial"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2025-02",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2025-03-30",
+          "type": "ESTIMATED"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-06-30",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2026-09-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2025-03-03",
+        "studyFirstSubmitQcDate": "2025-03-03",
+        "studyFirstPostDateStruct": {
+          "date": "2025-03-07",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2025-03-03",
+        "lastUpdatePostDateStruct": {
+          "date": "2025-03-07",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+          "class": "OTHER"
+        },
+        "collaborators": [
+          {
+            "name": "Ningbo Medical Center Lihuili Hospital",
+            "class": "OTHER_GOV"
+          },
+          {
+            "name": "Hangzhou Hospital of Traditional Chinese Medicine",
+            "class": "OTHER"
+          },
+          {
+            "name": "Wenzhou Central Hospital",
+            "class": "OTHER"
+          },
+          {
+            "name": "The Second Affiliated Hospital of Dalian Medical University",
+            "class": "OTHER"
+          }
+        ]
+      },
+      "oversightModule": {
+        "oversightHasDmc": true,
+        "isFdaRegulatedDrug": false,
+        "isFdaRegulatedDevice": false
+      },
+      "descriptionModule": {
+        "briefSummary": "The aim of this study is to evaluate the change in glycated hemoglobin (HbA1c) levels of adding cofrogliptin compared to escalation of metformin dose after 24 weeks in type 2 diabetes patients who have failed to achieve adequate glycemic control despite receiving combination therapy with SGLT2i and metformin. Participants will be asked to use either cofrogliptin combined with SGLT2i and metformin or SGLT2i combined with increased dose of metformin.",
+        "detailedDescription": "The primary objective of this study is to evaluate the change in glycated hemoglobin (HbA1c) levels of adding cofrogliptin compared to escalation of metformin dose after 24 weeks in type 2 diabetes patients who have failed to achieve adequate glycemic control despite receiving combination therapy with SGLT2i and metformin.\n\nThe secondary objectives of this study are to evaluate the changes in the following parameters (for indicators requiring pre-post comparison, the baseline level during the baseline treatment period is used for comparison):of adding cofrogliptin compared to escalation of metformin dose after 24 weeks in type 2 diabetes patients who have failed to achieve adequate glycemic control despite receiving combination therapy with SGLT2i and metformin:\n\n1. The proportion of subjects with HbA1c \\< 7.0% and \\< 6.5% after 24 weeks of treatment.\n2. Changes in 2-hour postprandial plasma glucose (2h-PPG) and fasting plasma glucose (FPG) from baseline at 12 and 24 weeks of treatment.\n3. Change in HbA1c levels from baseline after 12 weeks of treatment.\n4. Changes in body weight, fasting C-peptide, insulin sensitivity, and \u03b2-cell function from baseline after 24 weeks of treatment.\n5. The proportion of subjects who withdrew due to the need for rescue therapy for hyperglycemia.\n6. The safety profile of triple therapy with cofrogliptin."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Type 2 Diabetes"
+        ],
+        "keywords": [
+          "t2dm"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 80,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "cofrogliptin add-on group",
+            "type": "EXPERIMENTAL",
+            "description": "The cofrogliptin add-on group will continue their existing SGLT2i plus metformin regimen and dosing, with the add-on of cofrogliptin over 24 weeks of triple combined therapy.",
+            "interventionNames": [
+              "Drug: Metformin dose escalation"
+            ]
+          },
+          {
+            "label": "Metformin dose escalation group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "The metformin dose escalation group will have their metformin dose gradually increased to the target dose",
+            "interventionNames": [
+              "Drug: Cofrogliptin+SGLT2i+Metformin"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Cofrogliptin+SGLT2i+Metformin",
+            "description": "The cofrogliptin add-on group will continue their existing SGLT2i plus metformin regimen and dosing, with the add-on of cofrogliptin over 24 weeks of triple combined therapy.",
+            "armGroupLabels": [
+              "Metformin dose escalation group"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Metformin dose escalation",
+            "description": "The metformin dose escalation group will have their metformin dose gradually increased to the target dose.",
+            "armGroupLabels": [
+              "cofrogliptin add-on group"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "the change in glycated hemoglobin (HbA1c) levels",
+            "description": "the change in glycated hemoglobin (HbA1c) levels of adding cofrogliptin compared to escalation of metformin dose after 24 weeks in type 2 diabetes patients who have failed to achieve adequate glycemic control despite receiving combination therap",
+            "timeFrame": "throughout the study, about 1 year"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "The proportion of subjects with HbA1c < 7.0% and < 6.5%",
+            "description": "The proportion of subjects with HbA1c \\< 7.0% and \\< 6.5% after 24 weeks of treatment.",
+            "timeFrame": "throughout the study, about 1 year"
+          },
+          {
+            "measure": "2h-PPG and FPG",
+            "description": "Changes in 2-hour postprandial plasma glucose (2h-PPG) and fasting plasma glucose (FPG) from baseline at 12 and 24 weeks of treatment.",
+            "timeFrame": "throughout the study, about 1 year"
+          },
+          {
+            "measure": "Change in HbA1c levels",
+            "description": "Change in HbA1c levels from baseline after 12 weeks of treatment.",
+            "timeFrame": "throughout the study, about 1 year"
+          },
+          {
+            "measure": "Changes in body weight, fasting C-peptide, insulin sensitivity, and \u03b2-cell function",
+            "description": "Changes in body weight, fasting C-peptide, insulin sensitivity, and \u03b2-cell function from baseline after 24 weeks of treatment.",
+            "timeFrame": "throughout the study, about 1 year"
+          },
+          {
+            "measure": "proportion of subjects who withdrew",
+            "description": "The proportion of subjects who withdrew due to the need for rescue therapy for hyperglycemia.",
+            "timeFrame": "throughout the study, about 1 year"
+          },
+          {
+            "measure": "The safety profile",
+            "description": "The safety profile of triple therapy with cofrogliptin.",
+            "timeFrame": "throughout the study, about 1 year"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* Able to understand and voluntarily sign a written informed consent form.\n* Male or female aged 18-74 years (inclusive).\n* Meet the diagnostic criteria for type 2 diabetes mellitus (T2DM).\n* Have initiated treatment with any one of the SGLT2i monotherapy (dapagliflozin 10mg/d, canagliflozin 100mg/d, empagliflozin 10mg/d, ertugliflozin 5mg/day, or henagliflozin 10mg/day) for at least 8 weeks.\n* Have received 500-1000mg/day metformin treatment for at least 8 weeks with a stable, unchanged dose maintained during the screening period.\n* HbA1c level within the range of 7.5% to 9.5% inclusive.\n* Fasting blood glucose (FBG) level less than 15 mmol/L before randomization.\n* Body mass index (BMI) less than or equal to 40 kg/m2 before randomization.\n* Urine ketone test negative before randomization.\n* Estimated glomerular filtration rate (eGFR) of 60 ml/min/1.73m2 or higher before randomization.\n* Agree to maintain the same diet and exercise habits throughout the trial, and be willing and able to correctly use a home blood glucose meter for self-monitoring of blood glucose (SMBG) and keep records.\n\nExclusion Criteria:\n\n* Type 1 diabetes mellitus.\n* Various types of secondary diabetes.\n* Pending or having undergone pancreatic or \u03b2-cell transplantation.\n* History of pancreatitis or pancreatic resection.\n* Complicated with diabetic ketoacidosis or hyperosmolar coma.\n* Moderate or severe liver insufficiency of any cause, defined as ALT (SGPT), AST (SGOT), or alkaline phosphatase serum levels greater than 3 times the upper limit of normal (ULN) during the screening period.\n* Acute coronary syndrome (ST-segment elevation myocardial infarction, non-ST-segment elevation myocardial infarction, unstable angina), stroke, or transient ischemic attack (TIA) within the past 3 months.\n* Uncontrolled hypertension: systolic blood pressure \u2265 160 mmHg or diastolic blood pressure \u2265 90 mmHg.\n* Hemoglobin level less than 10 g/l or 100 mg/dl.\n* Recurrent genitourinary infections more than twice within the past 3 months.\n* History of bariatric surgery or other gastrointestinal surgeries causing chronic malabsorption within the past 2 years.\n* Received anti-obesity medication within the past 3 months or any other treatment (e.g., surgery, radical diet plans) that led to unstable body weight at the time of screening.\n* History of cancer (except basal cell carcinoma) and/or cancer treatment within the past 5 years.\n* Human immunodeficiency virus (HIV) positivity.\n* Severe peripheral vascular disease.\n* Hematological malignancies or any diseases causing hemolysis or erythrocyte instability (e.g., malaria, babesiosis, hemolytic anemia).\n* Coexisting immune system diseases or currently receiving systemic corticosteroid therapy.\n* Changes in thyroid hormone dosage within the past 6 weeks, or any other uncontrolled endocrine or metabolic disorders outside of T2DM.\n* Alcohol or drug abuse within the past 3 months that may reduce trial compliance, or any chronic illnesses that the investigator believes may lead to reduced trial compliance or reduced use of the study drug.\n* Known allergies to components of the study medication or other drugs with similar chemical structures or excipients.\n* Pregnant women, women planning to become pregnant during the study, or lactating women. Subjects unwilling to use reliable contraception (including condoms, spermicides, or intrauterine devices) from the time of signing the informed consent form until 28 days after the last administration of the study medication, or women planning to use progesterone-containing contraceptives during this period. Men with fertility plans during the study.\n* Participation in any other clinical study within the past 30 days.\n* Any other condition deemed unsuitable for participation in this study by the investigator.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "74 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Wenheng Zeng, Doctor",
+            "role": "CONTACT",
+            "phone": "+86 137 5711 8319",
+            "email": "42590910@qq.com"
+          }
+        ],
+        "overallOfficials": [
+          {
+            "name": "Chao Zheng, Doctor",
+            "affiliation": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "Second Affiliated Hospital, School of Medicine, Zhejiang University",
+            "status": "RECRUITING",
+            "city": "Hangzhou",
+            "state": "Zhejiang",
+            "country": "China",
+            "contacts": [
+              {
+                "name": "Wenheng Zeng, Doctor",
+                "role": "CONTACT",
+                "phone": "+86 137 5711 8319",
+                "email": "42590910@qq.com"
+              },
+              {
+                "name": "Chao Zheng, Doctor",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              }
+            ],
+            "geoPoint": {
+              "lat": 30.29365,
+              "lon": 120.16142
+            }
+          }
+        ]
+      },
+      "ipdSharingStatementModule": {
+        "ipdSharing": "NO",
+        "description": "medical data should be analyzed before sharing to avoind misunderstanding"
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2026-08-31"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D003924",
+            "term": "Diabetes Mellitus, Type 2"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D003920",
+            "term": "Diabetes Mellitus"
+          },
+          {
+            "id": "D044882",
+            "term": "Glucose Metabolism Disorders"
+          },
+          {
+            "id": "D008659",
+            "term": "Metabolic Diseases"
+          },
+          {
+            "id": "D009750",
+            "term": "Nutritional and Metabolic Diseases"
+          },
+          {
+            "id": "D004700",
+            "term": "Endocrine System Diseases"
+          }
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT06256419",
+        "orgStudyIdInfo": {
+          "id": "XYFY2023-KL479-01"
+        },
+        "organization": {
+          "fullName": "The Affiliated Hospital of Xuzhou Medical University",
+          "class": "OTHER"
+        },
+        "briefTitle": "Association of Gene Polymorphism With Susceptibility to T2DM and the Therapeutic Responses to Exenatide in Chinese Patients With T2DM",
+        "officialTitle": "Department of Pharmacy, the Affiliated Hospital of Xuzhou Medical University"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2025-09",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2024-01-01",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2028-01-31",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2028-01-31",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2024-02-05",
+        "studyFirstSubmitQcDate": "2024-02-05",
+        "studyFirstPostDateStruct": {
+          "date": "2024-02-13",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2025-09-17",
+        "lastUpdatePostDateStruct": {
+          "date": "2025-09-18",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "The Affiliated Hospital of Xuzhou Medical University",
+          "class": "OTHER"
+        }
+      },
+      "oversightModule": {
+        "oversightHasDmc": false,
+        "isFdaRegulatedDrug": false,
+        "isFdaRegulatedDevice": false,
+        "isUsExport": false
+      },
+      "descriptionModule": {
+        "briefSummary": "This is a retrospective cohort study of patients with T2DM who were treated with exenatide twice daily as a part of their diabetes care for at least 12 months. The objective of this study is to investigate the influence of T2DM susceptibility gene polymorphisms (NOS1AP, KCNQ1, TCF7L2, WSF1, GLP-1R, etc.) on the efficacy of GLP-1 RA (exenatide, liraglutide, etc.), to identify the variables that can predict the efficacy of GLP-1 RA, and to evaluate the weight of these variables on the efficacy.",
+        "detailedDescription": "T2DM is a polygenic genetic disease. The individual differences in the efficacy of antidiabetic drugs are caused by the cumulative effect of multiple gene polymorphisms, and are related to environmental factors and lifestyle. The results of single gene polymorphism cannot fully explain the individual differences in the efficacy of antidiabetic drugs. Verifying the correlation between T2DM gene polymorphisms and the efficacy of antidiabetic drugs, clarifying the genetic determinants of individual differences in the efficacy of antidiabetic drugs, and predicting the efficacy and side effects of antidiabetic drugs are of great significance for the formulation of precise medication regimens for T2DM patients.\n\nMany guidelines recommend the preferential use of GLP-1 RA after single drug or multiple oral hypoglycemic drugs and basic insulin therapy for poor glycemic control. However, the clinical responsiveness to GLP-1 RA varies among patients with T2DM. It has been reported that genetic factors are the important reasons for individual variation in therapeutic response of antidiabetic drugs. At present, dozens of gene loci related to therapeutic response of antidiabetic drugs have been screened, which are of great clinical significance in guiding clinical individualized treatment, improving the efficacy and safety of drugs, and reducing the drug costs.\n\nGLP-1 RA was injected subcutaneously at standard dose and frequency for consecutive 6 months. The patients were visited at moths 0, 3, and 6, and medical histories, physical examinations, and routine clinical laboratory tests were performed during these visits. The general anthropometric parameters considered for this study were height (m), weight (kg), and waist and hip circumferences (cm) at baseline, 3 months and 6months after exenatide treatment.\n\nPatients who had an HbA1c reduction \u22651.0% or HbA1c \\&lt;7.0% after exenatide treatment for six consecutive months were considered responders, while patients who failed to achieve this decrease were considered non-responders. The clinical data were collected and analyzed to determine the variables that could predict the efficacy of GLP-1 RA, and to evaluate the weight of the influence of these variables on the efficacy."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Type 2 Diabetes Mellitus",
+          "Susceptibility, Genetic"
+        ],
+        "keywords": [
+          "Type 2 Diabetes Mellitus",
+          "GLP-1 RA",
+          "gene polymorphism",
+          "susceptibility gene",
+          "variation"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "NA"
+        ],
+        "designInfo": {
+          "allocation": "NA",
+          "interventionModel": "SINGLE_GROUP",
+          "primaryPurpose": "PREVENTION",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 300,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "efficacy difference of GLP-1RA",
+            "type": "EXPERIMENTAL",
+            "description": "Responders group and non-responders group",
+            "interventionNames": [
+              "Drug: GLP-1 receptor agonist",
+              "Drug: responders group and nonresponders group"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "GLP-1 receptor agonist",
+            "description": "Eligible patients with T2DM were required to have received GLP-1RA as monotherapy or in combination with other antidiabetic agents. GLP-1 RA was injected subcutaneously at standard dose and frequency for consecutive 6 months in patients with T2DM.",
+            "armGroupLabels": [
+              "efficacy difference of GLP-1RA"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "responders group and nonresponders group",
+            "description": "For all the patients with type 2 diabetes who were initially enrolled in the study, blood samples were obtained for genotyping before the administration of GLP-1 receptor agonists. Patients were re-screened according to whether they had used GLP-1 RA continuously for more than 6 months and had completed the specified follow-up tasks.\n\nPatients were divided according to the type of T2DM susceptibility genes. Or all were divided into responses group and nonresponses group according to whether they had glycemic response (\u25b3HbA1c\u2193 \u22651.0%) and weight response (\u25b3weight\u2193 \u22653.0%) after taking GLP-1 receptor agonist for 6 months.\n\nAccording to the above grouping, the variables that can predict the efficacy of the drug were identified, and the weight of the influence of these variables on the efficacy was evaluated.",
+            "armGroupLabels": [
+              "efficacy difference of GLP-1RA"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "Change from baseline HbA1c and baseline weight at 6 month",
+            "description": "In order to observe the change from baseline HbA1c and baseline weight at 6 month after GLP-1 RA treatment",
+            "timeFrame": "6 month after GLP-1 RA treatment"
+          },
+          {
+            "measure": "To identify and evaluate the variable factors influencing GLP-1 RA efficacy",
+            "description": "The variable factors that predict the efficacy of GLP-1 RA were identified and the weight these variables on the efficacy was assessed",
+            "timeFrame": "1 month after sample integration"
+          },
+          {
+            "measure": "Genotype identification in patients with T2DM",
+            "description": "Blood samples were collected from T2DM patients for genotyping",
+            "timeFrame": "1 month after sample collecting"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Incidence and severity of possible adverse reaction within 6 month after GLP-1 RA treatment",
+            "description": "To evaluate the incidence and severity of possible adverse reaction within 6 month after GLP-1 RA treatment, including gastrointestinal reaction and hypoglycemia",
+            "timeFrame": "6 months after GLP-1 RA treatment"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n1. a diagnosis of T2DM\n2. a body mass index (BMI) of 20-35 kg/m2\n3. an HbA1c of 7.0%-12%, an age of 25-70 years\n4. required data available at baseline and 6 months after GLP-1RA therapy.\n\nExclusion Criteria:\n\n1. Patients with serious diseases such as acute myocardial infarction, cerebral vascular accident, trauma, kidney or liver diseases, severe gastrointestinal dysfunction, and history of pancreatitis\n2. patients receiving GLP-1 analogues, weight loss drugs, glucocorticoids, drugs affecting gastrointestinal peristalsis in the past 3 months\n3. those with missing data at the time points of baseline, 3 months, and 6 months after GLP-1 RA therapy.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "25 Years",
+        "maximumAge": "70 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Tao Wang, Ph.D",
+            "role": "CONTACT",
+            "phone": "13815344640",
+            "email": "misswt2011@126.com"
+          },
+          {
+            "name": "Xiaoxing Yin, Ph.D",
+            "role": "CONTACT",
+            "phone": "13605218523",
+            "email": "yinxx@xzmc.edu.cn"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "China, Jiangsu, Department of Endocrinology",
+            "status": "RECRUITING",
+            "city": "Xuzhou",
+            "state": "China",
+            "zip": "221006",
+            "country": "China",
+            "contacts": [
+              {
+                "name": "Hongwei Ling, MD",
+                "role": "CONTACT",
+                "phone": "18052268607",
+                "email": "linghongwei@medmail.com.cn"
+              },
+              {
+                "name": "Renguo Chen, MD",
+                "role": "PRINCIPAL_INVESTIGATOR"
+              },
+              {
+                "name": "Yuhan Huang, MD",
+                "role": "SUB_INVESTIGATOR"
+              }
+            ],
+            "geoPoint": {
+              "lat": 34.20442,
+              "lon": 117.28386
+            }
+          }
+        ]
+      },
+      "ipdSharingStatementModule": {
+        "ipdSharing": "NO"
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2026-08-31"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D003924",
+            "term": "Diabetes Mellitus, Type 2"
+          },
+          {
+            "id": "D020022",
+            "term": "Genetic Predisposition to Disease"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D003920",
+            "term": "Diabetes Mellitus"
+          },
+          {
+            "id": "D044882",
+            "term": "Glucose Metabolism Disorders"
+          },
+          {
+            "id": "D008659",
+            "term": "Metabolic Diseases"
+          },
+          {
+            "id": "D009750",
+            "term": "Nutritional and Metabolic Diseases"
+          },
+          {
+            "id": "D004700",
+            "term": "Endocrine System Diseases"
+          },
+          {
+            "id": "D004198",
+            "term": "Disease Susceptibility"
+          },
+          {
+            "id": "D020969",
+            "term": "Disease Attributes"
+          },
+          {
+            "id": "D010335",
+            "term": "Pathologic Processes"
+          },
+          {
+            "id": "D013568",
+            "term": "Pathological Conditions, Signs and Symptoms"
+          }
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT05427084",
+        "orgStudyIdInfo": {
+          "id": "20220176-01H"
+        },
+        "organization": {
+          "fullName": "Ottawa Heart Institute Research Corporation",
+          "class": "OTHER"
+        },
+        "briefTitle": "Canagliflozin Targeting Vascular Inflammation",
+        "officialTitle": "Canagliflozin Targeting Vascular Inflammation: An Ottawa Imaging Study - A Pilot Study",
+        "acronym": "CANTORSING"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2026-04",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2024-11-15",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-12",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2026-12",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2022-06-01",
+        "studyFirstSubmitQcDate": "2022-06-16",
+        "studyFirstPostDateStruct": {
+          "date": "2022-06-22",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-04-30",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-05-06",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "Ottawa Heart Institute Research Corporation",
+          "class": "OTHER"
+        }
+      },
+      "oversightModule": {
+        "oversightHasDmc": false,
+        "isFdaRegulatedDrug": false,
+        "isFdaRegulatedDevice": false,
+        "isUsExport": false
+      },
+      "descriptionModule": {
+        "briefSummary": "CANTOR SING is a pilot single center double blinded randomized study. The investigators will compare the effect of canagliflozin (300 mg daily - intervention arm) vs. placebo (control group) on the FDG aortic uptake in patients with stable CAD (over 60 days post-myocardial infarction) after a 6-month period of treatment. The investigators plan to enroll 8 patients in each arm (total sample size: 16 patients). Primary endpoint is the change in FDG aortic uptake between baseline and 6 months in each arm.",
+        "detailedDescription": "CANTOR SING is a pilot single center double blinded randomized study to determine the effect of targeted anti-inflammation therapy using canagliflozin, on aortic inflammation using imaging, i.e. ascending aortic FDG uptake. The current proposal uses a randomized design to evaluate the effect of canagliflozin vs. placebo on aortic inflammation activity over 6 months measured using FDG PET.\n\nAt the University of Ottawa Heart Institute (UOHI) patients with diabetes and stable CAD (defined as patients over 60 days post-myocardial infarction) will be recruited.\n\nPatients who meet inclusion/exclusion criteria will undergo clinical evaluation, FDG PET imaging with contrast-CT, and blood sample collection. HbA1C, Fasting Blood Sugar (FBS), lipids, C-reactive protein (CRP), creatinine (CR), glomerular filtration rate (GFR), complete blood count (CBC), hemoglobin, liver function tests - AST, ALT, creatine kinase (CK) will be collected from the patient's clinical data or if not available may be collected as part of the study.\n\nPatients recruited into the CANTOR SING study will be randomized to receive either an oral canagliflozin 300 mg capsule or placebo capsule administered once daily for 6 months. Patients will take the medication for 6 months. The study will be conducted in a double-blinded fashion.\n\nPatients will be followed up every 3 months for the 6-month evaluation period. Clinical evaluation and blood collection for labs (CBC, electrolytes, CPK, ALT, AST, creatinine) will performed at baseline and will be repeated every 3 months for a a total of 6 months of follow-up. FDG PET imaging with contrast-CT will be repeated at 6 months. Finally, blood will be collected at baseline and 6 months."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Diabetes Type 2",
+          "Coronary Artery Disease"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE2",
+          "PHASE3"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "QUADRUPLE",
+            "whoMasked": [
+              "PARTICIPANT",
+              "CARE_PROVIDER",
+              "INVESTIGATOR",
+              "OUTCOMES_ASSESSOR"
+            ]
+          }
+        },
+        "enrollmentInfo": {
+          "count": 24,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "Active",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Canagliflozin 300mg PO daily",
+            "interventionNames": [
+              "Drug: Canagliflozin"
+            ]
+          },
+          {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo PO daily",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "Canagliflozin",
+            "description": "Canagliflozin tablet 300mg PO daily",
+            "armGroupLabels": [
+              "Active"
+            ],
+            "otherNames": [
+              "Invokana"
+            ]
+          },
+          {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo tablet",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "TBR (Tissue-to-blood ratio) of the most-diseased segment (MDS) of the ascending aorta",
+            "description": "TBR (Tissue-to-blood ratio) is a marker of arterial plaque inflammation. It will be measured in the maximum disease segment (MDS)(the segment with the highest FDG uptake at baseline) in the aorta",
+            "timeFrame": "6 months"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "Change in inflammatory biomarkers",
+            "description": "The investigators will measure inflammatory biomarkers (hsCRP, IL-6, IL-7, IL-8, MCP) at baseline and on study completion (pg/mL)",
+            "timeFrame": "6 months"
+          },
+          {
+            "measure": "Change in monocyte marker expression",
+            "description": "Change in monocyte marker expression (% positive cells) of CD14++CD16-, CD14++CD16+, CD14+CD16+, CD14+CD16-, CD127, and CCR2 from baseline to follow-up",
+            "timeFrame": "6 months"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n* 1\\) Stable CAD (over 60 days post-myocardial infarction).\n* 2\\) Diabetes\n* 3\\) given informed consent.\n\nExclusion Criteria:\n\n1. severe LV dysfunction (EF\\<50%);\n2. decompensated heart failure;\n3. active infection (e.g. pneumonia, active skin infections, and on antibiotics);\n4. active inflammatory conditions (e.g. rheumatoid arthritis, chronic inflammatory bowel disease, SLE, systemic anti-inflammatory therapy (e.g. prednisone, methotrexate));\n5. pregnancy (all women of child bearing potential will have a negative BHCG test;\n6. breastfeeding;\n7. Women of childbearing potential who refuse to use two forms of contraception (this includes at least one form of highly effective and one effective method of contraception) throughout the study OR men capable of fathering a child who refuse to use contraception.\n8. glomerular filtration rate (GFR) \\<50 ml/min/1.72m2;\n9. Use of p-glycoprotein inhibitor (e.g. cyclosporine, verapamil, or quinidine) or a strong CYP3A4 inhibitor (e.g. ritonavir, clarithromycin, or ketoconazole);\n10. Hemoglobin \\< 105(women) \\<110 (men) g/L; WBC \\< 3.0x 10(9)/L, platelet count\\< 110x 10(9)/L;\n11. Patient with a history of cirrhosis, chronic active hepatitis or severe hepatic disease or with alanine aminotransferase (ALT) levels greater than 3 times the upper limit of normal.\n12. unable to give informed consent;",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Kevin Boczar, MD",
+            "role": "CONTACT",
+            "phone": "613 696 7000",
+            "email": "kboczar@ottawaheart.ca"
+          }
+        ],
+        "overallOfficials": [
+          {
+            "name": "Kevin Boczar, MD",
+            "affiliation": "Ottawa Heart Institute Research Corporation",
+            "role": "PRINCIPAL_INVESTIGATOR"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "University of Ottawa Heart Institute",
+            "status": "RECRUITING",
+            "city": "Ottawa",
+            "state": "Ontario",
+            "zip": "K1Y 4W7",
+            "country": "Canada",
+            "contacts": [
+              {
+                "name": "Chantal L",
+                "role": "CONTACT",
+                "phone": "6136967000",
+                "phoneExt": "18817",
+                "email": "clefebvre@ottawaheart.ca"
+              }
+            ],
+            "geoPoint": {
+              "lat": 45.41117,
+              "lon": -75.69812
+            }
+          }
+        ]
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2026-08-31"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D003924",
+            "term": "Diabetes Mellitus, Type 2"
+          },
+          {
+            "id": "D003324",
+            "term": "Coronary Artery Disease"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D003920",
+            "term": "Diabetes Mellitus"
+          },
+          {
+            "id": "D044882",
+            "term": "Glucose Metabolism Disorders"
+          },
+          {
+            "id": "D008659",
+            "term": "Metabolic Diseases"
+          },
+          {
+            "id": "D009750",
+            "term": "Nutritional and Metabolic Diseases"
+          },
+          {
+            "id": "D004700",
+            "term": "Endocrine System Diseases"
+          },
+          {
+            "id": "D003327",
+            "term": "Coronary Disease"
+          },
+          {
+            "id": "D017202",
+            "term": "Myocardial Ischemia"
+          },
+          {
+            "id": "D006331",
+            "term": "Heart Diseases"
+          },
+          {
+            "id": "D002318",
+            "term": "Cardiovascular Diseases"
+          },
+          {
+            "id": "D001161",
+            "term": "Arteriosclerosis"
+          },
+          {
+            "id": "D001157",
+            "term": "Arterial Occlusive Diseases"
+          },
+          {
+            "id": "D014652",
+            "term": "Vascular Diseases"
+          }
+        ]
+      },
+      "interventionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D000068896",
+            "term": "Canagliflozin"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D013876",
+            "term": "Thiophenes"
+          },
+          {
+            "id": "D013457",
+            "term": "Sulfur Compounds"
+          },
+          {
+            "id": "D009930",
+            "term": "Organic Chemicals"
+          },
+          {
+            "id": "D006573",
+            "term": "Heterocyclic Compounds, 1-Ring"
+          },
+          {
+            "id": "D006571",
+            "term": "Heterocyclic Compounds"
+          },
+          {
+            "id": "D005960",
+            "term": "Glucosides"
+          },
+          {
+            "id": "D006027",
+            "term": "Glycosides"
+          },
+          {
+            "id": "D002241",
+            "term": "Carbohydrates"
+          }
+        ]
+      }
+    },
+    "hasResults": false
+  },
+  {
+    "protocolSection": {
+      "identificationModule": {
+        "nctId": "NCT07272343",
+        "orgStudyIdInfo": {
+          "id": "2022efyA04"
+        },
+        "organization": {
+          "fullName": "Second Affiliated Hospital of Nanchang University",
+          "class": "OTHER"
+        },
+        "briefTitle": "The Impact of Semaglutide Compared to Energy Restriction on Type 2 Diabetes",
+        "officialTitle": "A Study on the Impact of Semaglutide Compared to Energy Restriction on Type 2 Diabetes Combined With Metabolic-associated Fatty Liver Disease and Its Molecular Mechanisms"
+      },
+      "statusModule": {
+        "statusVerifiedDate": "2025-11",
+        "overallStatus": "RECRUITING",
+        "expandedAccessInfo": {
+          "hasExpandedAccess": false
+        },
+        "startDateStruct": {
+          "date": "2023-02-10",
+          "type": "ACTUAL"
+        },
+        "primaryCompletionDateStruct": {
+          "date": "2026-06-30",
+          "type": "ESTIMATED"
+        },
+        "completionDateStruct": {
+          "date": "2026-07-01",
+          "type": "ESTIMATED"
+        },
+        "studyFirstSubmitDate": "2025-11-16",
+        "studyFirstSubmitQcDate": "2025-12-07",
+        "studyFirstPostDateStruct": {
+          "date": "2025-12-09",
+          "type": "ACTUAL"
+        },
+        "lastUpdateSubmitDate": "2026-03-31",
+        "lastUpdatePostDateStruct": {
+          "date": "2026-04-02",
+          "type": "ACTUAL"
+        }
+      },
+      "sponsorCollaboratorsModule": {
+        "responsibleParty": {
+          "type": "SPONSOR"
+        },
+        "leadSponsor": {
+          "name": "Second Affiliated Hospital of Nanchang University",
+          "class": "OTHER"
+        }
+      },
+      "oversightModule": {
+        "oversightHasDmc": true,
+        "isFdaRegulatedDrug": false,
+        "isFdaRegulatedDevice": false,
+        "isUsExport": true
+      },
+      "descriptionModule": {
+        "briefSummary": "To evaluate the effects of subcutaneous injection of semaglutide for 12 weeks on patients with type 2 diabetes mellitus (T2DM), compared with concurrent energy-restricted management, on glycemic control, weight loss, inflammatory markers, liver fat content, and other parameters. The study also observed the subcutaneous and visceral fat of the participants and explored the molecular mechanisms of action, providing high-quality evidence-based support for the timing and targets of intervention in this population."
+      },
+      "conditionsModule": {
+        "conditions": [
+          "Type 2 Diabetes Mellitus (T2DM)",
+          "Semaglutide",
+          "Caloric Restriction"
+        ],
+        "keywords": [
+          "Type 2 Diabetes Mellitus",
+          "semaglutide",
+          "Caloric Restriction"
+        ]
+      },
+      "designModule": {
+        "studyType": "INTERVENTIONAL",
+        "phases": [
+          "PHASE4"
+        ],
+        "designInfo": {
+          "allocation": "RANDOMIZED",
+          "interventionModel": "PARALLEL",
+          "primaryPurpose": "TREATMENT",
+          "maskingInfo": {
+            "masking": "NONE"
+          }
+        },
+        "enrollmentInfo": {
+          "count": 100,
+          "type": "ESTIMATED"
+        }
+      },
+      "armsInterventionsModule": {
+        "armGroups": [
+          {
+            "label": "semaglutide group",
+            "type": "EXPERIMENTAL",
+            "description": "The semaglutide group received weekly subcutaneous semaglutide (0.25 mg for weeks 1-2, 0.5 mg for weeks 3-4, and 1.0 mg for weeks 5-12).",
+            "interventionNames": [
+              "Drug: semaglutide"
+            ]
+          },
+          {
+            "label": "caloric restriction group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "The caloric restriction group followed a gender-specific daily caloric restriction (1,500-1,800 kcal for males; 1,200-1,500 kcal for females).",
+            "interventionNames": [
+              "Behavioral: caloric restriction"
+            ]
+          }
+        ],
+        "interventions": [
+          {
+            "type": "DRUG",
+            "name": "semaglutide",
+            "description": "The semaglutide group received weekly subcutaneous semaglutide (0.25 mg for weeks 1-2, 0.5 mg for weeks 3-4, and 1.0 mg for weeks 5-12).",
+            "armGroupLabels": [
+              "semaglutide group"
+            ]
+          },
+          {
+            "type": "BEHAVIORAL",
+            "name": "caloric restriction",
+            "description": "The caloric restriction group followed a gender-specific daily caloric restriction (1,500-1,800 kcal for males; 1,200-1,500 kcal for females).",
+            "armGroupLabels": [
+              "caloric restriction group"
+            ]
+          }
+        ]
+      },
+      "outcomesModule": {
+        "primaryOutcomes": [
+          {
+            "measure": "HbA1c",
+            "description": "glycated hemoglobin",
+            "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+          },
+          {
+            "measure": "FPG",
+            "description": "fasting plasma glucose",
+            "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+          },
+          {
+            "measure": "2hPG",
+            "description": "2-hour postprandial glucose",
+            "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+          }
+        ],
+        "secondaryOutcomes": [
+          {
+            "measure": "HOMA-IR",
+            "description": "homeostasis model assessment of insulin resistance",
+            "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+          },
+          {
+            "measure": "TC",
+            "description": "total cholesterol",
+            "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+          },
+          {
+            "measure": "TG",
+            "description": "triglycerides",
+            "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+          },
+          {
+            "measure": "LDL-C",
+            "description": "low-density lipoprotein",
+            "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+          },
+          {
+            "measure": "HDL-C",
+            "description": "high-density lipoprotein",
+            "timeFrame": "From enrollment to the end of treatment at 12 weeks"
+          }
+        ]
+      },
+      "eligibilityModule": {
+        "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18-75 years;\n2. BMI\u226525 kg/m\u00b2;\n3. Diagnosed as type 2 diabetes mellitus patients according to the \"Guidelines for the Prevention and Treatment of Type 2 Diabetes in China (2020 Edition)\";\n4. HbA1c\u22648.5%;\n5. Duration of diabetes \u22643 months, and no use of antihyperglycemic drugs;\n6. Willing to participate in this study, and after full informed consent, agrees to strictly follow the treatment plan and promises to attend follow-up visits on time, and signs the informed consent form.\n\nExclusion Criteria:\n\n1. BMI \\< 25 kg/m\u00b2;\n2. Age \\< 18 years, or \\> 75 years;\n3. History of type 1 diabetes, acute pancreatitis, or diabetes secondary to pancreatectomy;\n4. History of bariatric surgery or planned bariatric surgery, or currently attempting weight loss within the past 3 months, or use of weight-loss medications within the past 3 months;\n5. Use of GLP-1 receptor agonists, sodium-glucose cotransporter 2 inhibitors, dipeptidyl peptidase-4 inhibitors, thiazolidinediones, or other related drugs within the past 3 months;\n6. Pregnant or breastfeeding women, or those planning to conceive during the study period;\n7. Patients with severe diseases of important organ systems, such as severe cardiovascular and cerebrovascular diseases, respiratory diseases, gastrointestinal diseases, renal insufficiency, hematologic diseases, neurological diseases, or malignancies;\n8. Personal or family history of medullary thyroid carcinoma;\n9. Patients with severe mental disorders or communication barriers that prevent accurate understanding of the study content and compliance with the trial procedures.",
+        "healthyVolunteers": false,
+        "sex": "ALL",
+        "minimumAge": "18 Years",
+        "maximumAge": "75 Years",
+        "stdAges": [
+          "ADULT",
+          "OLDER_ADULT"
+        ]
+      },
+      "contactsLocationsModule": {
+        "centralContacts": [
+          {
+            "name": "Jianping Liu",
+            "role": "CONTACT",
+            "phone": "+8679186274551",
+            "email": "ndefy14105@ncu.edu.cn"
+          }
+        ],
+        "locations": [
+          {
+            "facility": "Minde road No.1",
+            "status": "RECRUITING",
+            "city": "Jiangxi",
+            "state": "Nanchang",
+            "zip": "330000",
+            "country": "China",
+            "contacts": [
+              {
+                "name": "Jianping Liu",
+                "role": "CONTACT",
+                "phone": "+8679186274551",
+                "email": "ndefy14105@ncu.edu.cn"
+              },
+              {
+                "role": "CONTACT",
+                "email": "ndefy14105@ncu.edu.cn"
+              }
+            ],
+            "geoPoint": {
+              "lat": 33.99934,
+              "lon": 105.19994
+            }
+          }
+        ]
+      },
+      "ipdSharingStatementModule": {
+        "ipdSharing": "NO",
+        "description": "Some of the data involves patient privacy. If there is a need to share the data, please contact the relevant researchers of this project."
+      }
+    },
+    "derivedSection": {
+      "miscInfoModule": {
+        "versionHolder": "2026-08-31"
+      },
+      "conditionBrowseModule": {
+        "meshes": [
+          {
+            "id": "D003924",
+            "term": "Diabetes Mellitus, Type 2"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D003920",
+            "term": "Diabetes Mellitus"
+          },
+          {
+            "id": "D044882",
+            "term": "Glucose Metabolism Disorders"
+          },
+          {
+            "id": "D008659",
+            "term": "Metabolic Diseases"
+          },
+          {
+            "id": "D009750",
+            "term": "Nutritional and Metabolic Diseases"
+          },
+          {
+            "id": "D004700",
+            "term": "Endocrine System Diseases"
+          }
+        ]
+      },
+      "interventionBrowseModule": {
+        "meshes": [
+          {
+            "id": "C000591245",
+            "term": "semaglutide"
+          },
+          {
+            "id": "D031204",
+            "term": "Caloric Restriction"
+          }
+        ],
+        "ancestors": [
+          {
+            "id": "D004035",
+            "term": "Diet Therapy"
+          },
+          {
+            "id": "D044623",
+            "term": "Nutrition Therapy"
+          },
+          {
+            "id": "D013812",
+            "term": "Therapeutics"
+          },
+          {
+            "id": "D002149",
+            "term": "Energy Intake"
+          },
+          {
+            "id": "D004032",
+            "term": "Diet"
+          },
+          {
+            "id": "D009747",
+            "term": "Nutritional Physiological Phenomena"
+          },
+          {
+            "id": "D000066888",
+            "term": "Diet, Food, and Nutrition"
+          },
+          {
+            "id": "D010829",
+            "term": "Physiological Phenomena"
+          }
+        ]
+      }
+    },
+    "hasResults": false
+  }
+]

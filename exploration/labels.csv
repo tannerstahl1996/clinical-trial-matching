@@ -1,0 +1,11 @@
+patient_id,nct_id,label,notes
+P001,NCT05028140,y,"confirmed type II diabetes, no exclusion criteria"
+P002,NCT05028140,n,Type 1 diabetes
+P003,NCT05028140,n,pregnant
+P004,NCT05028140,n,trial in the last year
+P005,NCT05028140,n,prior therapy worked
+P001,NCT07495020,y,clean match
+P002,NCT07495020,n,type 1 diabetes and is 16
+P003,NCT07495020,n,insufficient BMI data
+P004,NCT07495020,n,"lack of data, BMI"
+P005,NCT07495020,n,"insufficient data, no BMI"

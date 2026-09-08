@@ -1,0 +1,309 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05028140",
+      "orgStudyIdInfo": {
+        "id": "EMS1020 - PIEMONTE"
+      },
+      "organization": {
+        "fullName": "EMS",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Efficacy and Safety of Piemonte Association in the Treatment of Type II Diabetes Mellitus",
+      "officialTitle": "National, Multicenter, Randomized, Double-blind, Triple-dummy, Phase III Clinical Trial to Evaluate the Efficacy and Safety of Piemonte Association in the Treatment of Type II Diabetes Mellitus",
+      "acronym": "PIEMONTE"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-10-08",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-07",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-09",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-08-25",
+      "studyFirstSubmitQcDate": "2021-08-25",
+      "studyFirstPostDateStruct": {
+        "date": "2021-08-31",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-12-01",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-12-08",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "EMS",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the efficacy and safety of Piemonte association in the treatment of type 2 diabetes mellitus"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type II Diabetes"
+      ],
+      "keywords": [
+        "Type II diabetes mellitus"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 480,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Piemonte association",
+          "type": "EXPERIMENTAL",
+          "description": "The study is triple-dummy, thus the patient must take 3 tablets once a day, as follows:\n\n1 tablet Piemonte, oral;\n\n1 placebo tablet of empagliflozin, oral;\n\n1 placebo tablet of piglitazone, oral.",
+          "interventionNames": [
+            "Drug: PIEMONTE",
+            "Other: PLACEBO EMPAGLIFLOZIN",
+            "Other: PLACEBO PIOGLITAZONE"
+          ]
+        },
+        {
+          "label": "Empagliflozin",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The study is triple-dummy, thus the patient must take 3 tablets once a day, as follows:\n\n1 placebo tablet of Piemonte, oral;\n\n1 tablet of empagliflozin, oral;\n\n1 placebo tablet of piglitazone, oral.",
+          "interventionNames": [
+            "Other: PIEMONTE PLACEBO",
+            "Drug: EMPAGLIFLOZIN",
+            "Other: PLACEBO PIOGLITAZONE"
+          ]
+        },
+        {
+          "label": "Pioglitazone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The study is triple-dummy, thus the patient must take 3 tablets once a day, as follows:\n\n1 placebo tablet of Piemonte, oral;\n\n1 placebo tablet of empagliflozin, oral;\n\n1 tablet of piglitazone, oral.",
+          "interventionNames": [
+            "Other: PIEMONTE PLACEBO",
+            "Other: PLACEBO EMPAGLIFLOZIN",
+            "Drug: PIOGLITAZONE"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "PIEMONTE",
+          "description": "Piemonte association 1 coated tablet once a day",
+          "armGroupLabels": [
+            "Piemonte association"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "PIEMONTE PLACEBO",
+          "description": "Placebo of Piemonte association 1 coated tablet once a day",
+          "armGroupLabels": [
+            "Empagliflozin",
+            "Pioglitazone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "EMPAGLIFLOZIN",
+          "description": "Empagliflozin 25 mg 1 coated tablet once a day",
+          "armGroupLabels": [
+            "Empagliflozin"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "PLACEBO EMPAGLIFLOZIN",
+          "description": "Placebo of empagliflozin 25 mg 1 coated tablet once a day",
+          "armGroupLabels": [
+            "Piemonte association",
+            "Pioglitazone"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PIOGLITAZONE",
+          "description": "Pioglitazone 30 mg 1 tablet once a day",
+          "armGroupLabels": [
+            "Pioglitazone"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "PLACEBO PIOGLITAZONE",
+          "description": "Placebo of pioglitazone 30 mg 1 tablet once a day",
+          "armGroupLabels": [
+            "Empagliflozin",
+            "Piemonte association"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Glycated hemoglobin",
+          "description": "Change from baseline in glycated hemoglobin",
+          "timeFrame": "120 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Adverse events",
+          "description": "Incidence and severity of adverse events recorded during the study",
+          "timeFrame": "150 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Ability to confirm voluntary participation and agree to all trial purposes by signing and dating the consent form;\n* Diagnosis of type II diabetes mellitus, and who did not reach the therapeutic goal of HbA1c with previous dietary, physical exercise, and previous therapies at stable doses within 3 months.\n\nExclusion Criteria:\n\n* Any clinical and laboratory findings that, in the judgment of the investigator, may interfere with the safety of participants;\n* History of alcohol abuse or illicit drug use;\n* Participation in a clinical trial in the year prior to this study;\n* Pregnancy or risk of pregnacy and lactating participants;\n* Known hypersensitivity to any of the formula compounds;\n* Type 1 diabetes.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "contactsLocationsModule": {
+      "centralContacts": [
+        {
+          "name": "Arthur M Kummer, MD, PhD",
+          "role": "CONTACT",
+          "phone": "+551938879851",
+          "email": "pesquisa.clinica@ncfarma.com.br"
+        }
+      ],
+      "locations": [
+        {
+          "facility": "EMS",
+          "status": "RECRUITING",
+          "city": "Hortol\u00e2ndia",
+          "state": "S\u00e3o Paulo",
+          "country": "Brazil",
+          "geoPoint": {
+            "lat": -22.85833,
+            "lon": -47.22
+          }
+        }
+      ]
+    }
+  },
+  "derivedSection": {
+    "miscInfoModule": {
+      "versionHolder": "2026-08-31"
+    },
+    "conditionBrowseModule": {
+      "meshes": [
+        {
+          "id": "D003924",
+          "term": "Diabetes Mellitus, Type 2"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D003920",
+          "term": "Diabetes Mellitus"
+        },
+        {
+          "id": "D044882",
+          "term": "Glucose Metabolism Disorders"
+        },
+        {
+          "id": "D008659",
+          "term": "Metabolic Diseases"
+        },
+        {
+          "id": "D009750",
+          "term": "Nutritional and Metabolic Diseases"
+        },
+        {
+          "id": "D004700",
+          "term": "Endocrine System Diseases"
+        }
+      ]
+    },
+    "interventionBrowseModule": {
+      "meshes": [
+        {
+          "id": "C570240",
+          "term": "empagliflozin"
+        },
+        {
+          "id": "D000077205",
+          "term": "Pioglitazone"
+        }
+      ],
+      "ancestors": [
+        {
+          "id": "D045162",
+          "term": "Thiazolidinediones"
+        },
+        {
+          "id": "D013844",
+          "term": "Thiazoles"
+        },
+        {
+          "id": "D013457",
+          "term": "Sulfur Compounds"
+        },
+        {
+          "id": "D009930",
+          "term": "Organic Chemicals"
+        },
+        {
+          "id": "D001393",
+          "term": "Azoles"
+        },
+        {
+          "id": "D006573",
+          "term": "Heterocyclic Compounds, 1-Ring"
+        },
+        {
+          "id": "D006571",
+          "term": "Heterocyclic Compounds"
+        }
+      ]
+    }
+  },
+  "hasResults": false
+}

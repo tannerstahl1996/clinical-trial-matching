@@ -1,0 +1,37 @@
+[
+  {
+    "nct_id": "NCT05028140",
+    "input_tokens": 595,
+    "output_tokens": 119,
+    "latency_seconds": 2.34,
+    "cost_usd": 0.00357
+  },
+  {
+    "nct_id": "NCT07465224",
+    "input_tokens": 645,
+    "output_tokens": 181,
+    "latency_seconds": 3.17,
+    "cost_usd": 0.00465
+  },
+  {
+    "nct_id": "NCT06428968",
+    "input_tokens": 676,
+    "output_tokens": 128,
+    "latency_seconds": 3.07,
+    "cost_usd": 0.003948
+  },
+  {
+    "nct_id": "NCT06863532",
+    "input_tokens": 1479,
+    "output_tokens": 284,
+    "latency_seconds": 5.23,
+    "cost_usd": 0.008697
+  },
+  {
+    "nct_id": "NCT06256419",
+    "input_tokens": 638,
+    "output_tokens": 200,
+    "latency_seconds": 3.88,
+    "cost_usd": 0.004914
+  }
+]

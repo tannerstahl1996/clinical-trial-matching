@@ -1,0 +1,87 @@
+{
+  "NCT05028140": {
+    "min_age": 18,
+    "max_age": 85,
+    "min_bmi": null,
+    "max_bmi": null,
+    "min_hba1c": null,
+    "max_hba1c": null,
+    "required_medications": [],
+    "medication_requirement_type": null,
+    "excluded_medications": [],
+    "excludes_type1_diabetes": true,
+    "excludes_pregnancy": true
+  },
+  "NCT07465224": {
+    "min_age": 18,
+    "max_age": 65,
+    "min_bmi": 23.0,
+    "max_bmi": 39.9,
+    "min_hba1c": 6.5,
+    "max_hba1c": 10.5,
+    "required_medications": [
+      "metformin",
+      "SGLT2 inhibitor",
+      "DPP4 inhibitor"
+    ],
+    "medication_requirement_type": "any_of",
+    "excluded_medications": [
+      "therapies known to interfere with glucose or insulin metabolism (other than current T2DM treatment or birth control)"
+    ],
+    "excludes_type1_diabetes": false,
+    "excludes_pregnancy": false
+  },
+  "NCT06428968": {
+    "min_age": 18,
+    "max_age": null,
+    "min_bmi": null,
+    "max_bmi": null,
+    "min_hba1c": 6.5,
+    "max_hba1c": null,
+    "required_medications": [],
+    "medication_requirement_type": null,
+    "excluded_medications": [
+      "drugs that could affect cognitive function"
+    ],
+    "excludes_type1_diabetes": false,
+    "excludes_pregnancy": true
+  },
+  "NCT06863532": {
+    "min_age": 18,
+    "max_age": 74,
+    "min_bmi": null,
+    "max_bmi": 40.0,
+    "min_hba1c": 7.5,
+    "max_hba1c": 9.5,
+    "required_medications": [
+      "SGLT2i monotherapy (dapagliflozin 10mg/d, canagliflozin 100mg/d, empagliflozin 10mg/d, ertugliflozin 5mg/day, or henagliflozin 10mg/day) for at least 8 weeks",
+      "metformin 500-1000mg/day for at least 8 weeks"
+    ],
+    "medication_requirement_type": "all_of",
+    "excluded_medications": [
+      "anti-obesity medication (past 3 months)",
+      "systemic corticosteroid therapy (current)",
+      "progesterone-containing contraceptives (during study period)"
+    ],
+    "excludes_type1_diabetes": true,
+    "excludes_pregnancy": true
+  },
+  "NCT06256419": {
+    "min_age": 25,
+    "max_age": 70,
+    "min_bmi": 20.0,
+    "max_bmi": 35.0,
+    "min_hba1c": 7.0,
+    "max_hba1c": 12.0,
+    "required_medications": [],
+    "medication_requirement_type": null,
+    "excluded_medications": [
+      "GLP-1 analogues (past 3 months)",
+      "weight loss drugs (past 3 months)",
+      "glucocorticoids (past 3 months)",
+      "drugs affecting gastrointestinal peristalsis (past 3 months)"
+    ],
+    "excludes_type1_diabetes": false,
+    "excludes_pregnancy": false
+  }
+}
